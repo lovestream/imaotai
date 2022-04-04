@@ -24,7 +24,9 @@ docker run -dit --name imaotai -p 1499:1499 -v $PWD/imaotai/config:/go/src/imaot
 
 User-Agent,Client_Secret,Cookie.必填 
 
-还有经纬度不要默认 程序会就近预约最近距离店铺
+User-Agent,Cookie可通过stream抓包获取。
+
+还有经纬度不要默认，可用百度地图获取当前位置经纬度，程序会就近预约最近距离店铺
 
 
 其他配置不懂的默认即可
